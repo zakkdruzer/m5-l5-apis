@@ -1,4 +1,4 @@
-# Fetch & APIs 🛰 — Módulo 5, Lección 5
+# Fetch & APIs 🛰 — Módulo 5, Lección 5 (Día 1)
 
 Proyecto de práctica de consumo de APIs en JavaScript moderno.  
 Incluye minis independientes y un ejercicio integrador: una **Pokédex interactiva**.
@@ -18,20 +18,13 @@ Tecnologías principales:
 ```text
 m5-l5-apis/
 ├─ index.html
-├─ mini1/
-│  └─ mini1.js
-├─ mini2/
-│  └─ mini2.js
-├─ mini3/
-│  └─ mini3.js
-├─ mini4/
-│  └─ mini4.js
-├─ mini5/
-│  └─ mini5.js
-├─ mini6/
-│  └─ mini6.js
-└─ ejercicio-final/
-   └─ ejercicio-final.js
+├─ mini1.js
+├─ mini2.js
+├─ mini3.js
+├─ mini4.js
+├─ mini5.js
+├─ mini6.js
+└─ ejercicio-final.js
 ```
 
 El `index.html` sirve como hub visual de todos los ejercicios, usando solo componentes y utilidades de Bootstrap.
