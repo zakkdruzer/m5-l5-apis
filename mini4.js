@@ -40,7 +40,7 @@ btnDashboard.addEventListener('click', async () => {
 
     renderDashboard(user, posts, todos, tiempo, 'Paralelo (Promise.all)');
     // Comentario para el bootcamp:
-    // En modo paralelo, el tiempo total ≈ la request más lenta, no la suma de todas.[web:81]
+    // En modo paralelo, el tiempo total ≈ la request más lenta, no la suma de todas.
   } catch (error) {
     elTiempos.textContent = 'Error al cargar el dashboard en paralelo.';
     console.error(error);
@@ -72,7 +72,7 @@ btnDashboardSeq.addEventListener('click', async () => {
 
     renderDashboard(user, posts, todos, tiempo, 'Secuencial (await uno a uno)');
     // Comentario: en secuencial el tiempo total ≈ suma de las 3 latencias,
-    // así que casi siempre será más lento que el paralelo.[web:81]
+    // así que casi siempre será más lento que el paralelo.
   } catch (error) {
     elTiempos.textContent = 'Error al cargar el dashboard de forma secuencial.';
     console.error(error);
