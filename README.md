@@ -255,6 +255,3 @@ Esta organización facilita la lectura, el mantenimiento y la extensión del pro
 ## Puedes ver el resultado en:
 
 https://zakkdruzer.github.io/m5-l5-apis/
-- Convertir la Pokédex en una SPA con React en otro módulo del bootcamp.
-
----
