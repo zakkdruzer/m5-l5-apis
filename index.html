@@ -106,7 +106,66 @@
                 </div>
               </section>
 
-              <!-- Mini 4 -->
+              <!-- Mini 4 – Dashboard Promise.all -->
+              <section class="mt-4">
+                <h2 class="h5 fw-bold mb-2">
+                  Mini 4 – Dashboard con Promise.all
+                </h2>
+                <p class="mb-3 small">
+                  Carga en paralelo los datos del usuario 1: perfil, posts y
+                  todos.
+                </p>
+
+                <div class="d-flex flex-wrap gap-2 mb-3">
+                  <button id="btn-dashboard" class="btn btn-sm btn-primary">
+                    Cargar dashboard (Promise.all)
+                  </button>
+                  <button
+                    id="btn-dashboard-seq"
+                    class="btn btn-sm btn-outline-primary"
+                  >
+                    Cargar dashboard (secuencial)
+                  </button>
+                </div>
+
+                <div id="dashboard-mini4" class="row g-3">
+                  <!-- Tarjetas de métricas -->
+                  <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                      <div class="card-body">
+                        <h3 class="h6 text-muted mb-1">Usuario</h3>
+                        <p id="usuario-nombre" class="fw-bold mb-0">—</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                      <div class="card-body">
+                        <h3 class="h6 text-muted mb-1">Cantidad de posts</h3>
+                        <p id="usuario-posts" class="fw-bold mb-0">—</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12 col-md-4">
+                    <div class="card border-0 shadow-sm h-100">
+                      <div class="card-body">
+                        <h3 class="h6 text-muted mb-1">
+                          Todos completados / pendientes
+                        </h3>
+                        <p id="usuario-todos" class="fw-bold mb-0">—</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p id="tiempos-mini4" class="mt-3 small text-muted">
+                  Aún no se ha medido el tiempo.
+                </p>
+              </section>
+
+
             </div>
           </div>
         </div>
@@ -123,5 +182,6 @@
     <script src="mini1.js"></script>
     <script src="mini2.js"></script>
     <script src="mini3.js"></script>
+    <script src="mini4.js"></script>
   </body>
 </html>
