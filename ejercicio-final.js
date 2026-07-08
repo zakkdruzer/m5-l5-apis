@@ -23,7 +23,7 @@ async function cargarPokemones(desde, hasta) {
       ids.map((id) =>
         fetch(`https://pokeapi.co/api/v2/pokemon/${id}`).then((r) => r.json())
       )
-    ); // cada resultado es un objeto Pokémon completo.[web:122]
+    ); // cada resultado es un objeto Pokémon completo.
 
     pokedexPokemones = pokedexPokemones.concat(resultados);
     pokedexUltimoId = hasta;
@@ -53,7 +53,7 @@ function renderizarPokemones(lista) {
     img.alt = pokemon.name;
     img.src =
       pokemon.sprites.other['official-artwork'].front_default ||
-      pokemon.sprites.front_default; // imagen oficial o fallback.[web:115][web:118]
+      pokemon.sprites.front_default; // imagen oficial o fallback.
 
     const body = document.createElement('div');
     body.className = 'card-body';
@@ -66,7 +66,7 @@ function renderizarPokemones(lista) {
     tipos.className = 'card-text small mb-0';
     const nombresTipos = pokemon.types
       .map((t) => t.type.name)
-      .join(' / '); // ["grass","poison"] etc.[web:122][web:125]
+      .join(' / '); // ["grass","poison"] etc.
     tipos.textContent = nombresTipos;
 
     body.appendChild(titulo);
