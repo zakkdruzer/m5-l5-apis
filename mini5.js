@@ -1,4 +1,4 @@
-// mini5.js
+// Mini 5
 
 let paginaActual = 1;
 const LIMITE = 5;

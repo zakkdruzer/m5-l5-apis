@@ -1,3 +1,5 @@
+// Mini 4
+
 const elNombre = document.getElementById('usuario-nombre');
 const elPosts = document.getElementById('usuario-posts');
 const elTodos = document.getElementById('usuario-todos');
