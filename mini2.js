@@ -1,5 +1,4 @@
-console.log("%cMini 2 · Lista de usuarios desde API", "font-weight: bold; color: green; font-size: 15px;");
-console.log("")
+// Mini 2
 
 const lista = document.getElementById('lista');
 const estado = document.getElementById('estado');
